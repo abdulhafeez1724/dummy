@@ -1,0 +1,46 @@
+.mynavbar-design
+{
+	background-color: #ff5500;
+}
+
+.mynavbar-design .navbar-brand,
+.mynavbar-design .navbar-brand:focus,
+.mynavbar-design .navbar-brand:hover,
+.mynavbar-design .navbar-text
+ {
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 5px 5px 2px black;
+ }
+ .mynavbar-design .navbar-nav
+ {
+ 	margin-left: 500px;
+ }
+ @media only screen and (max-width: 576px)
+ {
+			 	 .mynavbar-design
+			{
+				background-color:green;
+			}
+			 	.mynavbar-design .navbar-nav
+			 {
+			 	margin-left: 100px;
+			 }
+ }
+ .mynavbar-design .navbar-nav .nav-link 
+ {
+    color: yellow;
+    font-weight: bold;
+    font-family: 'verdana';
+}
+.mynavbar-design .navbar-nav .nav-link:hover
+{
+	background-color: #f4511e;
+	color: white;
+}
+
+.navbar
+{
+	min-height: 12%;
+}
